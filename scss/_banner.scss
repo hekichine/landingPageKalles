@@ -416,7 +416,7 @@
       font-size: 17px;
       color: #2c2c51;
       position: relative;
-        transition: all 0.2s linear;
+      transition: all 0.2s linear;
       span {
         background-image: -moz-linear-gradient(
           70deg,
@@ -447,7 +447,8 @@
         font-size: 14px;
         text-align: center;
       }
-      &.active,&:hover{
+      &.active,
+      &:hover {
         color: #5e2ced;
         background: transparent;
         span {
@@ -870,6 +871,7 @@
   h4 {
     font-size: 20px;
     margin-bottom: 5px;
+    position: relative;
   }
   p {
     font-size: 14px;
